@@ -1,0 +1,357 @@
+body{
+    margin: 0;
+    height: 5000px;
+}
+
+nav{
+    background-color: rgb(227, 203, 20);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    
+
+}
+
+nav .logo{
+    color: white;
+    float: left;
+    padding: 14px 15px;
+    font-weight: bold;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    float: right;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav a:hover{
+color: rgb(255, 232, 27);
+background-color: rgb(0, 0, 0);
+
+
+}
+
+.banner{
+    height: 100vh;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/017/651/429/large_2x/abstract-modern-and-creative-3d-wallpaper-for-interior-mural-wall-art-decor-background-free-photo.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projeto{
+    display: inline-block;
+    color: white;
+    margin-left: 40px;
+    font-size: 4rem;
+    margin-top: 90px;
+    margin-bottom: 2px;
+}
+
+.projeto:hover{
+    color: rgb(255, 242, 4);
+    border-left: solid;
+    border-radius: 10px;
+    
+
+}
+
+.listadeProjetos a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.listadeProjetos a:hover{
+color: rgb(177, 96, 15);
+background-color: white;
+border-radius: 20px;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+.linha{
+    border: solid 2px rgb(162, 72, 214);
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+
+
+
+
+
+
+.testediv{
+    text-align: center;
+    color: red;
+    font-size: 2em;
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colors{
+    color: rgb(253, 7, 7);
+    text-align: center;
+    margin-top: 1px;
+}
+.Saibamais{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.div1{
+    height: 260px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
+
+.div2{
+    height: 310px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    height: 300px;
+}
+
+.div3{
+    height: 310px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
+}
+.div1>img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+.div2>img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+.div3>img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.Titulo_Novos_Cards{
+    text-align: center;
+    color: rgb(16, 89, 167);
+    font-size: 2em;
+}
+
+.Cards_Dos_Cubos{
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.Car2x2{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;   
+    border-radius: 1px;
+    height: 310px;
+    width: 200px;
+}
+.Card3x3{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;   
+    border-radius: 1px;
+    height: 310px;
+    width: 200px;
+}
+.Card4x4{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;   
+    border-radius: 1px;
+    height: 310px;
+    width: 200px;
+}
+.Card5x5{
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;  
+    border-radius: 1px;
+    height: 310px;
+    width: 200px;
+}
+.Car2x2>img{
+    width: 100%;
+    margin-top: -50px;
+}
+.Card3x3>img{
+    width: 100%;
+}
+.Card4x4>img{
+    width: 100%;
+}
+.Card5x5>img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Titulo_Canias{
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    text-align: center;
+    margin: 0% 30% 0% 30%;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-transform: uppercase;
+
+}
+
+.partedecanais{
+    border-radius: 20px;
+    background-color: rgb(59, 51, 51);
+}
+
+.TstList a{
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-left: 30px;  
+}
+
+.TstList a:hover{
+    color: blueviolet;
+    border-radius:10px;
+    border-bottom: solid blueviolet 2px;
+}
+
+.texto_abaixo_do_menu{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+
+}
+
+.CardsCanis{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+
+}
+
+
+.Netflix>img{
+    width: 240px;
+    height: 210px;
+    border-radius: 10px;
+
+}
+.Animes>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;
+}
+.Youtube>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;
+}
+.Prime>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;
+}
+.Disney>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.DisneyPicture>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.starmais>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.spotfy>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;    
+}
+
+
+.globoplay>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.hob>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;
+}
+.antena>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;
+}
+.comedy>img{
+    height: 210px;
+    width: 245px;
+    border-radius: 10px;
+}
+.paramont>img{
+    height: 210px;
+    width: 240px;
+    border-radius: 10px;    
+}
+
+
