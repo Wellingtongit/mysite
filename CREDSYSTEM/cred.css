@@ -1,0 +1,346 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    background-color: rgba(1, 1, 1, 0.85);
+    width: 100%;
+    overflow: hidden;
+    border-bottom: solid 1px rgb(95, 89, 89);
+}
+
+nav .logo{
+    
+    display:inline-flex;
+    margin-top:19px;
+    margin-left: 25px;
+    padding-left: 5px;
+    padding-right:10px ;
+    height: 45px;
+    border-radius: 5px;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    float: right;
+    padding: 30px 15px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.iniciodif{
+    border-bottom: solid 5px white;
+    margin-bottom: 10px;
+}
+
+nav a:hover{
+    color: rgb(255, 0, 187);
+}
+
+
+button{
+    color: white;
+    background-color: rgb(255, 0, 187);
+    padding:10px;
+    font-size: 1em;
+    border: none;
+
+}
+
+
+
+
+.centro-box{
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.85);
+    color: white;
+    padding-bottom: 100px;
+}
+.cliente{
+    margin-left: 125%;
+    margin-top: 10px;   
+    
+   
+}
+.textovarejo{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 120px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+
+}
+.texto-abaixo-do-nosso{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 150px;
+    font-size:2em;
+}
+span{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 9%;
+    background-color:blue;
+    font-size: 20px;
+    padding: 15px;
+}
+span:hover{
+    background-color: rgb(255, 0, 187);
+    transition: 0.3s;
+}
+
+.circulo{
+    position: fixed;
+    margin-left: 1157px;
+    margin-top: 10%;
+
+}
+
+
+
+
+
+/*ESTA É A SEGUNDA SECTION DA PAGINA*/ 
+
+
+.RoupasVitrine{
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.RoupasVitrine>img{
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+
+.segundaSection{
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.QuerSeAproximar{
+    font-size: 25px;
+    color: black;
+}
+.PodemosAjudar{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Concheca{
+    color: rgb(143, 28, 225);
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+/*PARCERIAS DA CRED*/
+
+.cliente_cartão{
+    display: flex;
+    position: relative;
+    background-color: rgb(39, 37, 37);  
+    color: white; 
+    flex-wrap: wrap;
+    border-top-right-radius: 20px;
+    
+}
+
+.h1DoCliente{
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.pDoCliente{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.buttonCred{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.conquistar{
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+
+
+
+/*CARTÕES DA CREDY*/
+
+.cartões{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
+.h1textoCartão{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 4rem;
+    color: black;
+ 
+}
+.ptexto{
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.jghg{
+    color: rgb(248, 13, 201);
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+.cartões>img{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+.Caixa{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(#fdfdfd,#000000);
+    padding: 50px;
+    gap: 20px;
+}
+.SubCaixa1{
+    display: block;
+    border-radius: 15px;
+}
+
+.boleto0{
+    border-radius: 20px;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-right: 30px;
+}
+.negociação1{    
+    border-radius: 20px;
+    background-color: rgb(255, 13, 199);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-right: 30px;
+}
+.seguros2{
+    border-radius: 20px;
+    background-color: rgb(41, 41, 49);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-right: 30px;
+}
+.SubCaixa1,h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-top: 25px;
+}
+
+
+
+.conteinner0{
+    position: relative;
+    background-color:green;
+    border: solid black 1px;
+    padding-bottom: 500px;
+}
+.conteinner1{
+    justify-content: end;
+    gap: 50px;
+    border: solid black 1px;
+    background-color: blue;
+
+}
+.subconteiner0{
+    color: white;
+    border: solid black 1px;
+    padding: 20px;
+    background-color: red;
+    margin-right: 70%;
+}
+
+.logocred{
+    border: solid 1px black;
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+
+   
+}
+
+.logosSociais{
+    margin-left:65%;
+    display:flex;
+    gap: 25px;
+}
+.Acompanhe-nos{
+    margin-left:65%;
+}
+
+
+.subconteiner1{
+    font-size: 1em;
+    color: white;
+    border: solid black 1px;
+    padding: 20px;
+    background-color: rgb(187, 0, 255);
+
+}
+.subconteiner2{
+    color: white;
+    border: solid black 1px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.CaixaPrincipal{
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    display: flex;
+    background: linear-gradient(rgb(58, 58, 172),rgb(217, 28, 145),rgb(0, 0, 0));
+
+}
+#caixasecundaria{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: baseline;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    gap: 50px;
+    
+}
+
+.logos{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
